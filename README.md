@@ -8,21 +8,7 @@ language. It is currently developed on 64bit OS X and 64bit Linux.
 On OS X (homebrew):
 
 ``` sh
-brew install https://raw.github.com/Homebrew/homebrew-versions/master/autoconf213.rb
-brew install automake libtool
-brew install pkg-config
-```
-
-Note, there is an [issue][] on homebrew which requires the following manual
-configuration as well:
-
-``` sh
-sudo sh -c 'echo /usr/local/share/aclocal >> /usr/share/aclocal/dirlist'
-```
-
-On OS X (MacPorts):
-
-``` sh
+brew install https://raw.
 sudo port install autoconf213
 ```
     
